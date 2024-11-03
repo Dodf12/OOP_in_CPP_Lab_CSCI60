@@ -5,7 +5,8 @@ using namespace std;
 
 int main()
 {
-	dbiguint myObj("999");
+	dbiguint myObj("999"); 
+	
 	cout << myObj.size() << endl;
 	cout << myObj[1] << endl;
 
