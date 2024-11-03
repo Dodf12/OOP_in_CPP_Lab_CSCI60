@@ -13,6 +13,8 @@ template <typename T>
 T frequent(T a[], size_t size);
 
 int main()
+
+
 {
 	int arr[6] = {6,2,3,2,6,2};
 
