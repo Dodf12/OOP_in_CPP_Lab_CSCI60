@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	dbiguint myObj("1100");
+	dbiguint myObj("999");
 	cout << myObj.size() << endl;
 	cout << myObj[1] << endl;
 
@@ -21,7 +21,8 @@ int main()
 	cout << myObj << endl;
 
 	cout << "-----" << endl;
-	dbiguint myObj1("1100");
+	dbiguint myObj1("99");
+	cout << "++";
 	myObj+=myObj1;
 	cout << myObj;
 }
