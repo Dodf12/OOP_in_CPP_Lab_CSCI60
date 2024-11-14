@@ -1,7 +1,11 @@
+#ifndef nDimension_H
+#define nDimension_H
+
 #include <iostream>
 #include <cassert>
-using namespace std;
+#include <iostream>
 
+using namespace std;
 
 template <class T>
 class nDimension
@@ -69,19 +73,4 @@ void nDimension<T>::operator=(const nDimension& other)
 	}
 }
 
-int main()
-{
-	int arr[5] = {1,2,3,4,5};
-	int arr2[2] = {1,2};
-
-	nDimension<int> obj(5, arr);
-	nDimension<int> obj2(2, arr2);
-
-	cout << obj.getItem(1) << endl;
-	cout << obj.getSize() << endl;
-
-	obj = obj2;
-
-	cout << obj.getItem(1) << endl;
-	cout << obj.getSize();
-}
+#endif // DBIGUINT_H
