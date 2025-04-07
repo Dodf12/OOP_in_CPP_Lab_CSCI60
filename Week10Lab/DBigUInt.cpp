@@ -136,6 +136,8 @@ void Dbiguint::clean()
         temp = data_[i];
     }
 
+    capacity_-=count;
+
     delete[] data_;
     data_ = temp;
 }
